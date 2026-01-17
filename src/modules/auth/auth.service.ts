@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+// database testlari qo'shildi
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Admin } from './auth.entity';
