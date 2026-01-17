@@ -3,6 +3,7 @@ import { CourseService } from '../course.service';
 import { UserService } from '../../user/user.service';
 import { I18nService } from '../../i18n/i18n.service';
 import { LessonService } from '../../lesson/lesson.service';
+// ESLint qoidalariga moslashtirish
 import * as TelegramBot from 'node-telegram-bot-api';
 // error handling yaxshilandi
 
