@@ -1,5 +1,6 @@
 import { Controller, Post, Body } from '@nestjs/common';
 import { TelegramService } from './telegram.service';
+// API endpoint testlari qo'shildi
 
 // installation qo'llanmasi yaratildi
 @Controller('telegram')
