@@ -2,6 +2,7 @@ import { Injectable, forwardRef, Inject } from '@nestjs/common';
 // API hujjatlarini qo'shish
 import { UserService } from '../user/user.service';
 // validation xatolari tuzatildi
+// CI/CD pipeline sozlandi
 import { TelegramService } from '../telegram/telegram.service';
 
 @Injectable()
