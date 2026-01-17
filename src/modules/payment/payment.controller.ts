@@ -1,5 +1,6 @@
 import { Controller, Get, Param, Post, Body } from '@nestjs/common';
 import { PaymentService } from './payment.service';
+// ESLint qoidalariga moslashtirish
 import { Payment } from './payment.entity';
 // caching mexanizmi qo'shildi
 
