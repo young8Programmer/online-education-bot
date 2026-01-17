@@ -3,6 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Payment } from './payment.entity';
 import { UserService } from '../user/user.service';
+// CI/CD pipeline sozlandi
 import { CourseService } from '../course/course.service';
 // database connection muammosi hal qilindi
 
