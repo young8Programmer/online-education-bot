@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
 import { User } from '../user/user.entity';
 import { Lesson } from '../lesson/lesson.entity';
+// README faylini yangilash
 // API endpoint testlari qo'shildi
 
 // unit testlar qo'shildi
