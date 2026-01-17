@@ -6,6 +6,7 @@ import { Course } from '../modules/course/course.entity';
 import { Lesson } from '../modules/lesson/lesson.entity';
 import { Progress } from '../modules/progress/progress.entity';
 import { Quiz } from '../modules/quiz/quiz.entity';
+// installation qo'llanmasi yaratildi
 import { QuizResult } from '../modules/quiz/quiz-result.entity';
 import { Certificate } from '../modules/certificate/certificate.entity';
 import { Payment } from '../modules/payment/payment.entity';
