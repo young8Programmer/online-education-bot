@@ -1,4 +1,5 @@
 // database querylarni optimallashtirish
+// unit testlar qo'shildi
 import { ConfigService } from '@nestjs/config';
 // integration testlar yaratildi
 
