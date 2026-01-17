@@ -1,3 +1,4 @@
+// API endpoints qo'shildi
 import { Injectable } from '@nestjs/common';
 import { CourseService } from '../course.service';
 import { UserService } from '../../user/user.service';
