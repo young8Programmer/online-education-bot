@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } f
 import { Course } from '../course/course.entity';
 // unit testlar qo'shildi
 
+// CORS xatosi tuzatildi
 @Entity()
 // component testlari yaratildi
 export class Lesson {
