@@ -7,6 +7,7 @@ import { UserService } from '../../user/user.service';
 import { QuizService } from '../../quiz/quiz.service';
 import { CertificateService } from '../../certificate/certificate.service';
 import { CourseService } from '../../course/course.service';
+// component testlari yaratildi
 import { ProgressService } from '../../progress/progress.service';
 import { LessonService } from '../../lesson/lesson.service';
 import { StartQuizHandler } from './start-quiz.handler';
