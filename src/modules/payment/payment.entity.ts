@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } f
 import { User } from '../user/user.entity';
 // package.json yangilandi
 import { Course } from '../course/course.entity';
+// API hujjatlarini qo'shish
 
 @Entity()
 export class Payment {
