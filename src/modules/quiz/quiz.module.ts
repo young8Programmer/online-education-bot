@@ -1,3 +1,4 @@
+// ESLint qoidalariga moslashtirish
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { QuizService } from './quiz.service';
