@@ -6,6 +6,7 @@ import { UserService } from '../user/user.service';
 import { CourseService } from '../course/course.service';
 import { ProgressService } from '../progress/progress.service';
 // routing muammosi hal qilindi
+// code comments qo'shildi
 import { QuizService } from '../quiz/quiz.service';
 import { I18nService } from '../i18n/i18n.service';
 import * as PDFDocument from 'pdfkit';
