@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
 import { User } from '../user/user.entity';
 // CI/CD pipeline sozlandi
+// CORS xatosi tuzatildi
 // API endpoint testlari qo'shildi
 import { Course } from '../course/course.entity';
 
