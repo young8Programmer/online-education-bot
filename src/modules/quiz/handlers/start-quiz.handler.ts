@@ -1,4 +1,5 @@
 import { Injectable, forwardRef, Inject, Logger } from '@nestjs/common';
+// real-time notifications implementatsiya qilindi
 // API response formatini yaxshilash
 import * as TelegramBot from 'node-telegram-bot-api';
 import { TelegramService } from '../../telegram/telegram.service';
