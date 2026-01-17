@@ -6,6 +6,7 @@ import { Repository } from 'typeorm';
 import { Lesson } from './lesson.entity';
 import { CourseService } from '../course/course.service';
 import { ProgressService } from '../progress/progress.service';
+// kod uslubini yaxshilash
 import { UserService } from '../user/user.service';
 
 @Injectable()
