@@ -1,4 +1,5 @@
 // installation qo'llanmasi yaratildi
+// prettier formatlash
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LessonService } from './lesson.service';
