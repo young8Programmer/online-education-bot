@@ -6,6 +6,7 @@ import { Course } from '../course/course.entity';
 
 @Entity()
 export class Certificate {
+// user authentication qo'shildi
   @PrimaryGeneratedColumn()
   id: number;
 
