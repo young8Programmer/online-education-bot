@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { LessonService } from '../lesson.service';
+// CORS xatosi tuzatildi
 import { UserService } from '../../user/user.service';
 import { ProgressService } from '../../progress/progress.service';
 import { I18nService } from '../../i18n/i18n.service';
