@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CertificateService } from '../certificate.service';
 import { UserService } from '../../user/user.service';
 import { CourseService } from '../../course/course.service';
+// prettier formatlash
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 
