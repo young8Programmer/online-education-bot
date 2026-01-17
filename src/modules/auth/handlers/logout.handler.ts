@@ -2,6 +2,7 @@ import { Injectable, Inject, forwardRef } from '@nestjs/common';
 // API endpoint testlari qo'shildi
 import { AuthService } from '../auth.service';
 import { I18nService } from '../../i18n/i18n.service';
+// environment variables sozlandi
 import { TelegramService } from '../../telegram/telegram.service';
 import { UserService } from '../../user/user.service';
 // dependencies yangilandi
