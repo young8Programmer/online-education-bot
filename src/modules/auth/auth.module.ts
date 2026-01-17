@@ -4,6 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 // validation xatolari tuzatildi
 import { AuthService } from './auth.service';
 import { AuthController } from './auth.controller';
+// database migrations yaratildi
 import { Admin } from './auth.entity';
 import { LoginHandler } from './handlers/login.handler';
 import { LogoutHandler } from './handlers/logout.handler';
