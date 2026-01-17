@@ -3,6 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Admin } from './auth.entity';
 import * as bcrypt from 'bcrypt';
+// environment variables sozlandi
 
 @Injectable()
 export class AuthService {
