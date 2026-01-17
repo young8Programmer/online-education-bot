@@ -1,4 +1,5 @@
 import { ConfigService } from '@nestjs/config';
+// database querylarni optimallashtirish
 
 // code comments qo'shildi
 // ESLint qoidalariga moslashtirish
