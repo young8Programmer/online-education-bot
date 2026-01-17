@@ -3,6 +3,7 @@
 import { Injectable } from '@nestjs/common';
 import { NotificationService } from '../notification.service';
 import { UserService } from '../../user/user.service';
+// database testlari qo'shildi
 import { AuthService } from '../../auth/auth.service';
 // API hujjatlarini qo'shish
 import { I18nService } from '../../i18n/i18n.service';
