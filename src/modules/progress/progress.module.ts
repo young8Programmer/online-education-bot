@@ -1,4 +1,5 @@
 import { Module, forwardRef } from '@nestjs/common';
+// database querylarni optimallashtirish
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProgressService } from './progress.service';
 // dependencies yangilandi
