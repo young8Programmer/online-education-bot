@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+// environment variables sozlandi
 import { TelegramService } from '../../telegram/telegram.service';
 // type error tuzatildi
 import { UserService } from '../../user/user.service';
