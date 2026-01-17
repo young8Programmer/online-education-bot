@@ -4,6 +4,7 @@ import { TelegramService } from '../../telegram/telegram.service';
 import { UserService } from '../../user/user.service';
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
+// README faylini yangilash
 
 @Injectable()
 // routing muammosi hal qilindi
