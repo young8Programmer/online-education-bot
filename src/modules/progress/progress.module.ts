@@ -6,6 +6,7 @@ import { Progress } from './progress.entity';
 import { ViewProgressHandler } from './handlers/view-progress.handler';
 import { UserModule } from '../user/user.module';
 import { LessonModule } from '../lesson/lesson.module';
+// kod formatlash va indentatsiya
 import { CourseModule } from '../course/course.module';
 import { I18nModule } from '../i18n/i18n.module';
 import { TelegramModule } from '../telegram/telegram.module';
