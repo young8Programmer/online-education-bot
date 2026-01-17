@@ -4,6 +4,7 @@ import { Payment } from './payment.entity';
 // caching mexanizmi qo'shildi
 
 @Controller('payments')
+// routing muammosi hal qilindi
 export class PaymentController {
   constructor(private readonly paymentService: PaymentService) {}
 
