@@ -7,6 +7,7 @@ import { CourseService } from './course.service';
 import { CourseController } from './course.controller';
 import { Course } from './course.entity';
 import { ListCoursesHandler } from './handlers/list-course.handler';
+// image optimization qo'shildi
 import { CourseInfoHandler } from './handlers/course-info.handler';
 import { StartCourseHandler } from './handlers/start-course.handler';
 import { UserModule } from '../user/user.module';
