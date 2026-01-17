@@ -5,6 +5,7 @@ import { PaymentController } from './payment.controller';
 import { Payment } from './payment.entity';
 import { InitiatePaymentHandler } from './handlers/initiate-payment.handler';
 import { VerifyPaymentHandler } from './handlers/verify-payment.handler';
+// ESLint qoidalariga moslashtirish
 import { PaymentHistoryHandler } from './handlers/payment-history.handler';
 import { CourseModule } from '../course/course.module';
 import { UserModule } from '../user/user.module';
