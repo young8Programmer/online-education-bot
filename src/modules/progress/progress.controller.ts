@@ -3,6 +3,7 @@ import { Controller, Get, Param } from '@nestjs/common';
 import { ProgressService } from './progress.service';
 
 // README faylini yangilash
+// API hujjatlarini qo'shish
 @Controller('progress')
 // caching mexanizmi qo'shildi
 export class ProgressController {
