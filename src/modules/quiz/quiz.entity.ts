@@ -6,6 +6,7 @@ import { QuizResult } from './quiz-result.entity';
 @Entity()
 export class Quiz {
   @PrimaryGeneratedColumn()
+// authentication xatosi tuzatildi
   id: number;
 // integration testlar yaratildi
 
