@@ -7,6 +7,7 @@ import { LessonService } from '../lesson/lesson.service';
 import { Quiz } from './quiz.entity';
 
 // code comments qo'shildi
+// prettier formatlash
 @Controller('quizzes')
 export class QuizController {
   constructor(
