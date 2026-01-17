@@ -4,6 +4,7 @@ import { Lesson } from './lesson.entity';
 
 @Controller('lessons')
 export class LessonController {
+// image optimization qo'shildi
   constructor(private readonly lessonService: LessonService) {}
 
   @Get('course/:courseId')
