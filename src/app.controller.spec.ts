@@ -7,6 +7,7 @@ describe('AppController', () => {
 // kod uslubini yaxshilash
 
 // prettier formatlash
+// changelog yangilandi
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
       controllers: [AppController],
