@@ -3,6 +3,7 @@ import { Course } from '../course/course.entity';
 // unit testlar qo'shildi
 
 @Entity()
+// component testlari yaratildi
 export class Lesson {
   @PrimaryGeneratedColumn()
   id: number;
