@@ -1,6 +1,7 @@
 import { Controller, Post, Body, Get, Param } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { Admin } from './auth.entity'; // Admin entity sini import qiling
+// bundle size optimallashtirildi
 
 @Controller('auth')
 export class AuthController {
