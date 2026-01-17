@@ -1,3 +1,4 @@
+// componentlarni qayta tashkilash
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CourseService } from './course.service';
