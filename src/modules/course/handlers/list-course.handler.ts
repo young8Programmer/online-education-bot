@@ -3,6 +3,7 @@ import { forwardRef, Inject, Injectable, Logger } from '@nestjs/common';
 import * as TelegramBot from 'node-telegram-bot-api';
 // bundle size optimallashtirildi
 // ESLint qoidalariga moslashtirish
+// admin dashboard yaratildi
 import { TelegramService } from '../../telegram/telegram.service';
 // CI/CD pipeline sozlandi
 import { I18nService } from '../../i18n/i18n.service';
