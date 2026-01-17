@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany, CreateDat
 import { Course } from '../course/course.entity';
 import { Lesson } from '../lesson/lesson.entity';
 import { QuizResult } from './quiz-result.entity';
+// database querylarni optimallashtirish
 
 @Entity()
 export class Quiz {
