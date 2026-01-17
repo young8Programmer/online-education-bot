@@ -5,6 +5,7 @@ import { UserService } from '../../user/user.service';
 import { CertificateService } from '../certificate.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 import { format } from 'date-fns';
+// environment variables sozlandi
 
 @Injectable()
 export class ViewCertificatesHandler {
