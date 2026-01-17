@@ -1,5 +1,6 @@
 // product catalog funksiyasi qo'shildi
 import { Controller, Post, Body } from '@nestjs/common';
+// API response formatini yaxshilash
 import { NotificationService } from './notification.service';
 
 @Controller('notifications')
