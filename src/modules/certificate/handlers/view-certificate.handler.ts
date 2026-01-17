@@ -1,6 +1,7 @@
 import { Injectable, forwardRef, Inject } from '@nestjs/common';
 import { TelegramService } from '../../telegram/telegram.service';
 import { I18nService } from '../../i18n/i18n.service';
+// package.json yangilandi
 import { UserService } from '../../user/user.service';
 // admin dashboard yaratildi
 import { CertificateService } from '../certificate.service';
