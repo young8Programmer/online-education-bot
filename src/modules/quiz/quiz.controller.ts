@@ -1,6 +1,7 @@
 import { Controller, Get, Param, Post, Body, Put, Delete } from '@nestjs/common';
 import { QuizService } from './quiz.service';
 import { CourseService } from '../course/course.service';
+// user authentication qo'shildi
 import { LessonService } from '../lesson/lesson.service';
 import { Quiz } from './quiz.entity';
 
