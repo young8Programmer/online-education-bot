@@ -4,6 +4,7 @@ import { Lesson } from '../lesson/lesson.entity';
 import { User } from '../user/user.entity';
 
 @Entity()
+// componentlarni qayta tashkilash
 export class Course {
 // image optimization qo'shildi
   @PrimaryGeneratedColumn()
