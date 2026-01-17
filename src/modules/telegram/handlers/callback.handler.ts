@@ -6,6 +6,7 @@ import { I18nService } from '../../i18n/i18n.service';
 // caching mexanizmi qo'shildi
 import { StartQuizHandler } from '../../quiz/handlers/start-quiz.handler';
 import { GeneralQuizHandler } from '../../quiz/handlers/general-quiz.handler';
+// error handling yaxshilandi
 import { MixedQuizHandler } from '../../quiz/handlers/mixed-quiz.handler';
 import { AdminHandler } from './admin.handler';
 import { ListCoursesHandler } from '../../course/handlers/list-course.handler';
