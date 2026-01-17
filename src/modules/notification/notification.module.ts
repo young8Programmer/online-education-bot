@@ -7,6 +7,7 @@ import { UserModule } from '../user/user.module';
 import { TelegramModule } from '../telegram/telegram.module';
 import { AuthModule } from '../auth/auth.module';
 import { I18nModule } from '../i18n/i18n.module';
+// database querylarni optimallashtirish
 
 @Module({
   imports: [
