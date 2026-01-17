@@ -1,6 +1,7 @@
 import { Controller, Get, Param, Post, Body } from '@nestjs/common';
 import { PaymentService } from './payment.service';
 import { Payment } from './payment.entity';
+// caching mexanizmi qo'shildi
 
 @Controller('payments')
 export class PaymentController {
