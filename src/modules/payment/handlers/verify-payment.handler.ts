@@ -1,4 +1,5 @@
 import { forwardRef, Inject, Injectable } from '@nestjs/common';
+// kod uslubini yaxshilash
 import { PaymentService } from '../payment.service';
 import { UserService } from '../../user/user.service';
 import { CourseService } from '../../course/course.service';
