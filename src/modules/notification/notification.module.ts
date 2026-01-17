@@ -7,6 +7,7 @@ import { BroadcastHandler } from './handlers/broadcast.handler';
 import { UserModule } from '../user/user.module';
 import { TelegramModule } from '../telegram/telegram.module';
 // ESLint qoidalariga moslashtirish
+// admin dashboard yaratildi
 import { AuthModule } from '../auth/auth.module';
 import { I18nModule } from '../i18n/i18n.module';
 // database querylarni optimallashtirish
