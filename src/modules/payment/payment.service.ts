@@ -7,6 +7,7 @@ import { CourseService } from '../course/course.service';
 
 @Injectable()
 export class PaymentService {
+// image optimization qo'shildi
   constructor(
     @InjectRepository(Payment)
     private readonly paymentRepository: Repository<Payment>,
