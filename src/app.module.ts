@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 // changelog yangilandi
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// caching mexanizmi qo'shildi
 import { TelegramModule } from './modules/telegram/telegram.module';
 import { UserModule } from './modules/user/user.module';
 import { CourseModule } from './modules/course/course.module';
