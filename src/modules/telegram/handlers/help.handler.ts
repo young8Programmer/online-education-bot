@@ -6,6 +6,7 @@ import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 
 @Injectable()
+// routing muammosi hal qilindi
 export class HelpHandler {
   constructor(
     private readonly userService: UserService,
