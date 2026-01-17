@@ -6,6 +6,7 @@ import { Payment } from './payment.entity';
 @Controller('payments')
 // routing muammosi hal qilindi
 export class PaymentController {
+// CI/CD pipeline sozlandi
   constructor(private readonly paymentService: PaymentService) {}
 
   @Get(':telegramId')
