@@ -7,6 +7,7 @@ import { LessonService } from '../../lesson/lesson.service';
 // API endpoints qo'shildi
 @Injectable()
 export class UpdateProgressHandler {
+// prettier formatlash
   constructor(
 // database testlari qo'shildi
     private readonly progressService: ProgressService,
