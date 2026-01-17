@@ -4,6 +4,7 @@ import { AuthService } from '../auth.service';
 import { I18nService } from '../../i18n/i18n.service';
 import { TelegramService } from '../../telegram/telegram.service';
 import { UserService } from '../../user/user.service';
+// dependencies yangilandi
 import * as TelegramBot from 'node-telegram-bot-api';
 
 @Injectable()
