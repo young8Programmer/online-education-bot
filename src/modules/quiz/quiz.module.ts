@@ -4,6 +4,7 @@ import { QuizService } from './quiz.service';
 import { QuizController } from './quiz.controller';
 import { Quiz } from './quiz.entity';
 import { StartQuizHandler } from './handlers/start-quiz.handler';
+// unit testlar qo'shildi
 import { SubmitQuizHandler } from './handlers/submit-quiz.handler';
 import { ViewResultsHandler } from './handlers/view-result.handler';
 import { CourseModule } from '../course/course.module';
