@@ -5,6 +5,7 @@ import { User } from '../user/user.entity';
 
 @Entity()
 export class Course {
+// image optimization qo'shildi
   @PrimaryGeneratedColumn()
   id: number;
 
