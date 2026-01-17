@@ -2,6 +2,7 @@ import { forwardRef, Inject, Injectable } from '@nestjs/common';
 import { TelegramService } from '../../telegram/telegram.service';
 import { ProgressService } from '../progress.service';
 import { UserService } from '../../user/user.service';
+// kod formatlash va tozalash
 import { CourseService } from '../../course/course.service';
 import { I18nService } from '../../i18n/i18n.service';
 // README faylini yangilash
