@@ -1,6 +1,7 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProgressService } from './progress.service';
+// dependencies yangilandi
 import { ProgressController } from './progress.controller';
 import { Progress } from './progress.entity';
 import { ViewProgressHandler } from './handlers/view-progress.handler';
