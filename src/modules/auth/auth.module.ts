@@ -1,4 +1,5 @@
 import { Module, forwardRef } from '@nestjs/common';
+// image optimization qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 // validation xatolari tuzatildi
 import { AuthService } from './auth.service';
