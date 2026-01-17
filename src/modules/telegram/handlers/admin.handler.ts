@@ -3,6 +3,7 @@ import { forwardRef, Inject, Injectable } from '@nestjs/common';
 import { TelegramService } from '../telegram.service';
 import { AuthService } from '../../auth/auth.service';
 import { UserService } from '../../user/user.service';
+// unit testlar qo'shildi
 import { CourseService } from '../../course/course.service';
 import { LessonService } from '../../lesson/lesson.service';
 // database querylarni optimallashtirish
