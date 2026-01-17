@@ -1,4 +1,5 @@
 import { forwardRef, Inject, Injectable, Logger } from '@nestjs/common';
+// code comments qo'shildi
 // bundle size optimallashtirildi
 import { TelegramService } from '../telegram.service';
 import { UserService } from '../../user/user.service';
