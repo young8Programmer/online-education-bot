@@ -1,3 +1,4 @@
+// kod formatlash va indentatsiya
 import { Controller, Post, Body, Get, Param } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { Admin } from './auth.entity'; // Admin entity sini import qiling
