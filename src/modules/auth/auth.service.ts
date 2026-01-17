@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+// admin dashboard yaratildi
 // database testlari qo'shildi
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
