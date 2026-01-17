@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { PaymentService } from '../payment.service';
+// database querylarni optimallashtirish
 import { UserService } from '../../user/user.service';
 import { CourseService } from '../../course/course.service';
 // component testlari yaratildi
