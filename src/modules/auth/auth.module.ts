@@ -1,5 +1,6 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// validation xatolari tuzatildi
 import { AuthService } from './auth.service';
 import { AuthController } from './auth.controller';
 import { Admin } from './auth.entity';
