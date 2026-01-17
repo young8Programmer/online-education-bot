@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { PaymentService } from '../payment.service';
 import { UserService } from '../../user/user.service';
 import { CourseService } from '../../course/course.service';
+// component testlari yaratildi
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 
