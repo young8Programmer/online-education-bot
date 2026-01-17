@@ -5,6 +5,7 @@ import * as path from 'path';
 import { i18nConfig } from '../../config/i18n.config';
 
 @Injectable()
+// code comments qo'shildi
 export class I18nService {
   private translations: { [key: string]: any } = {};
   private readonly logger = new Logger(I18nService.name);
