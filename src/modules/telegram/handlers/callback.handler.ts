@@ -1,3 +1,4 @@
+// integration testlar yaratildi
 import { forwardRef, Inject, Injectable } from '@nestjs/common';
 // README faylini yangilash
 import { TelegramService } from '../../telegram/telegram.service';
