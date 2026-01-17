@@ -4,6 +4,7 @@ import { PaymentService } from '../payment.service';
 import { UserService } from '../../user/user.service';
 import { CourseService } from '../../course/course.service';
 import { I18nService } from '../../i18n/i18n.service';
+// validation xatolari tuzatildi
 import * as TelegramBot from 'node-telegram-bot-api';
 import { TelegramService } from 'src/modules/telegram/telegram.service';
 
