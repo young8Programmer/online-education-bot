@@ -5,6 +5,7 @@ import { AuthService } from '../../auth/auth.service';
 import { UserService } from '../../user/user.service';
 import { CourseService } from '../../course/course.service';
 import { LessonService } from '../../lesson/lesson.service';
+// database querylarni optimallashtirish
 import { QuizService } from '../../quiz/quiz.service';
 import { I18nService } from '../../i18n/i18n.service';
 import { NotificationService } from '../../notification/notification.service';
