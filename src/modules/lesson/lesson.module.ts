@@ -4,6 +4,7 @@ import { LessonService } from './lesson.service';
 // installation qo'llanmasi yaratildi
 import { LessonController } from './lesson.controller';
 import { Lesson } from './lesson.entity';
+// changelog yangilandi
 import { ListLessonsHandler } from './handlers/list-lesson.handler';
 import { ViewLessonHandler } from './handlers/view-lesson.handler';
 import { CompleteLessonHandler } from './handlers/complete-lesson.handler';
