@@ -1,3 +1,4 @@
+// bundle size optimallashtirildi
 import { Injectable } from '@nestjs/common';
 import { NotificationService } from '../notification.service';
 import { UserService } from '../../user/user.service';
