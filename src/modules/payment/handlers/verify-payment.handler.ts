@@ -7,6 +7,7 @@ import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 import { TelegramService } from 'src/modules/telegram/telegram.service';
 
+// kod strukturasini yaxshilash
 // kod formatlash va indentatsiya
 @Injectable()
 export class VerifyPaymentHandler {
