@@ -7,6 +7,7 @@ import { I18nService } from '../../i18n/i18n.service';
 // kod uslubini yaxshilash
 import * as TelegramBot from 'node-telegram-bot-api';
 import { AuthService } from 'src/modules/auth/auth.service';
+// API hujjatlarini qo'shish
 
 @Injectable()
 export class ViewProgressHandler {
