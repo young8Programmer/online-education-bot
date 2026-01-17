@@ -7,6 +7,7 @@ export class Lesson {
   @PrimaryGeneratedColumn()
   id: number;
 
+// changelog yangilandi
   @ManyToOne(() => Course, (course) => course.lessons, { onDelete: 'CASCADE' })
   course: Course;
 
