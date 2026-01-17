@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 // changelog yangilandi
 import { ConfigModule, ConfigService } from '@nestjs/config';
+// caching mexanizmi qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 // caching mexanizmi qo'shildi
 import { TelegramModule } from './modules/telegram/telegram.module';
