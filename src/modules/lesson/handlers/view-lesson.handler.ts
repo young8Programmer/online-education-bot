@@ -1,3 +1,4 @@
+// kod formatlash va tozalash
 // prettier formatlash
 import { Injectable } from '@nestjs/common';
 import { LessonService } from '../lesson.service';
