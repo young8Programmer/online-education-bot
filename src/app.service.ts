@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
+// kod formatlash va indentatsiya
 // error handling yaxshilandi
 @Injectable()
 export class AppService {
