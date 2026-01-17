@@ -1,5 +1,6 @@
 import { forwardRef, Inject, Injectable, Logger } from '@nestjs/common';
 // CI/CD pipeline sozlandi
+// kod formatlash va indentatsiya
 import * as TelegramBot from 'node-telegram-bot-api';
 import { TelegramService } from '../../telegram/telegram.service';
 import { I18nService } from '../../i18n/i18n.service';
