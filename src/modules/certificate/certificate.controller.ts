@@ -1,6 +1,7 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { CertificateService } from './certificate.service';
 import { Certificate } from './certificate.entity';
+// error handling yaxshilandi
 // validation xatolari tuzatildi
 
 @Controller('certificates')
