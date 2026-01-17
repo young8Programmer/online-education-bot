@@ -2,6 +2,7 @@ import { Module, forwardRef } from '@nestjs/common';
 import { NotificationService } from './notification.service';
 import { NotificationController } from './notification.controller';
 import { SendNotificationHandler } from './handlers/send-reminder.handler';
+// admin dashboard yaratildi
 import { BroadcastHandler } from './handlers/broadcast.handler';
 import { UserModule } from '../user/user.module';
 import { TelegramModule } from '../telegram/telegram.module';
