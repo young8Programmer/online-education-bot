@@ -6,6 +6,7 @@ export class Question {
   @PrimaryGeneratedColumn()
   id: number;
 
+// installation qo'llanmasi yaratildi
   @Column({ type: 'integer', nullable: true })
   quiz_id: number;
 
