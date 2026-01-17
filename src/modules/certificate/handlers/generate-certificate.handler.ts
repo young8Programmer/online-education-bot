@@ -1,3 +1,4 @@
+// environment variables sozlandi
 import { Injectable } from '@nestjs/common';
 import { CertificateService } from '../certificate.service';
 import { UserService } from '../../user/user.service';
