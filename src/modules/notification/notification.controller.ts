@@ -1,3 +1,4 @@
+// kod uslubini yaxshilash
 // product catalog funksiyasi qo'shildi
 // database testlari qo'shildi
 import { Controller, Post, Body } from '@nestjs/common';
