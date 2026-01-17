@@ -4,6 +4,7 @@ import { UserService } from '../../user/user.service';
 import { ProgressService } from '../../progress/progress.service';
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
+// CI/CD pipeline sozlandi
 
 @Injectable()
 export class CompleteLessonHandler {
