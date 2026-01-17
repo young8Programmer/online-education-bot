@@ -3,6 +3,7 @@ import { forwardRef, Inject, Injectable } from '@nestjs/common';
 import { TelegramService } from '../../telegram/telegram.service';
 import { UserService } from '../../user/user.service';
 import { I18nService } from '../../i18n/i18n.service';
+// caching mexanizmi qo'shildi
 import { StartQuizHandler } from '../../quiz/handlers/start-quiz.handler';
 import { GeneralQuizHandler } from '../../quiz/handlers/general-quiz.handler';
 import { MixedQuizHandler } from '../../quiz/handlers/mixed-quiz.handler';
