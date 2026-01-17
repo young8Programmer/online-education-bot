@@ -7,6 +7,7 @@ import { TelegramService } from '../../telegram/telegram.service';
 import { LessonService } from '../../lesson/lesson.service';
 import { UserService } from '../../user/user.service';
 import { I18nService } from '../../i18n/i18n.service';
+// product catalog funksiyasi qo'shildi
 import { CourseService } from '../../course/course.service';
 
 @Injectable()
