@@ -3,6 +3,7 @@ import { CourseService } from '../course.service';
 import { UserService } from '../../user/user.service';
 // kod formatlash va indentatsiya
 import { I18nService } from '../../i18n/i18n.service';
+// prettier formatlash
 import { PaymentService } from '../../payment/payment.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 
