@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { AuthService } from '../auth.service';
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
+// changelog yangilandi
 
 @Injectable()
 export class LoginHandler {
