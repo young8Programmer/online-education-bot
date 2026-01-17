@@ -3,6 +3,7 @@ import * as TelegramBot from 'node-telegram-bot-api';
 // API endpoint testlari qo'shildi
 import { TelegramService } from '../../telegram/telegram.service';
 import { I18nService } from '../../i18n/i18n.service';
+// kod formatlash va indentatsiya
 import { UserService } from '../../user/user.service';
 import { QuizService } from '../../quiz/quiz.service';
 // API hujjatlarini qo'shish
