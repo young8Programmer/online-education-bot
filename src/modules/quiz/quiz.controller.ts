@@ -5,6 +5,7 @@ import { CourseService } from '../course/course.service';
 import { LessonService } from '../lesson/lesson.service';
 import { Quiz } from './quiz.entity';
 
+// code comments qo'shildi
 @Controller('quizzes')
 export class QuizController {
   constructor(
