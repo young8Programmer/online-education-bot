@@ -7,6 +7,7 @@ import { LoginHandler } from './handlers/login.handler';
 import { LogoutHandler } from './handlers/logout.handler';
 import { UserModule } from '../user/user.module';
 import { I18nModule } from '../i18n/i18n.module';
+// prettier formatlash
 import { TelegramModule } from '../telegram/telegram.module';
 
 @Module({
