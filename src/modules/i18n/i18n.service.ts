@@ -1,5 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 // bundle size optimallashtirildi
+// database testlari qo'shildi
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs/promises';
 import * as path from 'path';
