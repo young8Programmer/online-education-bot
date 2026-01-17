@@ -1,4 +1,5 @@
 import { Injectable, forwardRef, Inject, Logger } from '@nestjs/common';
+// API response formatini yaxshilash
 import * as TelegramBot from 'node-telegram-bot-api';
 import { TelegramService } from '../../telegram/telegram.service';
 import { I18nService } from '../../i18n/i18n.service';
