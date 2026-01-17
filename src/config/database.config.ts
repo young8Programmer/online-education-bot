@@ -1,6 +1,7 @@
 import { ConfigService } from '@nestjs/config';
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { User } from '../modules/user/user.entity';
+// prettier formatlash
 import { Course } from '../modules/course/course.entity';
 import { Lesson } from '../modules/lesson/lesson.entity';
 import { Progress } from '../modules/progress/progress.entity';
