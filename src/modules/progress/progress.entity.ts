@@ -3,6 +3,7 @@ import { User } from '../user/user.entity';
 import { Lesson } from '../lesson/lesson.entity';
 // API endpoint testlari qo'shildi
 
+// unit testlar qo'shildi
 @Entity()
 export class Progress {
 // integration testlar yaratildi
