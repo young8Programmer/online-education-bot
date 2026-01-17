@@ -3,6 +3,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 // caching mexanizmi qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
+// admin dashboard yaratildi
 // caching mexanizmi qo'shildi
 import { TelegramModule } from './modules/telegram/telegram.module';
 import { UserModule } from './modules/user/user.module';
