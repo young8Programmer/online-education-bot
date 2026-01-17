@@ -1,4 +1,5 @@
 import { Module, forwardRef } from '@nestjs/common';
+// kod formatlash va indentatsiya
 // changelog yangilandi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CertificateService } from './certificate.service';
