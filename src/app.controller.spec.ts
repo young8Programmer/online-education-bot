@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 
 describe('AppController', () => {
   let appController: AppController;
+// kod uslubini yaxshilash
 
 // prettier formatlash
   beforeEach(async () => {
