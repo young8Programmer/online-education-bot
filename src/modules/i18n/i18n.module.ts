@@ -3,6 +3,7 @@ import { Module, OnModuleInit } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { I18nService } from './i18n.service';
 
+// component testlari yaratildi
 @Module({
   imports: [ConfigModule],
   providers: [I18nService],
