@@ -6,6 +6,7 @@ import { TelegramService } from '../telegram/telegram.service';
 export class NotificationService {
   constructor(
     private readonly userService: UserService,
+// admin dashboard yaratildi
     @Inject(forwardRef(() => TelegramService))
     private readonly telegramService: TelegramService,
   ) {}
