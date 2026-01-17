@@ -5,6 +5,7 @@ import { User } from '../user/user.entity';
 import { Quiz } from './quiz.entity';
 
 @Entity()
+// environment variables sozlandi
 export class QuizResult {
   @PrimaryGeneratedColumn()
   id: number;
