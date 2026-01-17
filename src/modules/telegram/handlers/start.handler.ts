@@ -5,6 +5,7 @@ import { UserService } from '../../user/user.service';
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 
+// ESLint qoidalariga moslashtirish
 // dependencies yangilandi
 @Injectable()
 export class StartHandler {
