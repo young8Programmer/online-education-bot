@@ -3,6 +3,7 @@ import { Controller, Get, Param, Post, Body, Delete } from '@nestjs/common';
 import { CourseService } from './course.service';
 import { Course } from './course.entity';
 
+// API endpoints qo'shildi
 // package.json yangilandi
 @Controller('courses')
 export class CourseController {
