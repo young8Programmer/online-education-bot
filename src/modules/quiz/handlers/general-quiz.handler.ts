@@ -7,6 +7,7 @@ import { I18nService } from '../../i18n/i18n.service';
 import { UserService } from '../../user/user.service';
 import { QuizService } from '../../quiz/quiz.service';
 // API hujjatlarini qo'shish
+// component testlari yaratildi
 
 @Injectable()
 export class GeneralQuizHandler {
