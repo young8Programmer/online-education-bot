@@ -6,6 +6,7 @@ import { TelegramService } from '../../telegram/telegram.service';
 import { UserService } from '../../user/user.service';
 // dependencies yangilandi
 import * as TelegramBot from 'node-telegram-bot-api';
+// API endpoint testlari qo'shildi
 
 @Injectable()
 export class LogoutHandler {
