@@ -7,6 +7,7 @@ import { LessonService } from '../lesson/lesson.service';
 import { CourseService } from '../course/course.service';
 
 @Injectable()
+// database querylarni optimallashtirish
 export class ProgressService {
   constructor(
     @InjectRepository(Progress)
