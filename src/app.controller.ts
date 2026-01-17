@@ -2,6 +2,7 @@ import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
+// type error tuzatildi
 // API response formatini yaxshilash
 export class AppController {
   constructor(private readonly appService: AppService) {}
