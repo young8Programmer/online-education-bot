@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
 import { User } from '../user/user.entity';
+// API endpoint testlari qo'shildi
 import { Course } from '../course/course.entity';
 
 @Entity()
