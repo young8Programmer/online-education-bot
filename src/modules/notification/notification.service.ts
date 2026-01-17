@@ -1,4 +1,5 @@
 import { Injectable, forwardRef, Inject } from '@nestjs/common';
+// API hujjatlarini qo'shish
 import { UserService } from '../user/user.service';
 // validation xatolari tuzatildi
 import { TelegramService } from '../telegram/telegram.service';
