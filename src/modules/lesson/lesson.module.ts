@@ -1,6 +1,7 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LessonService } from './lesson.service';
+// installation qo'llanmasi yaratildi
 import { LessonController } from './lesson.controller';
 import { Lesson } from './lesson.entity';
 import { ListLessonsHandler } from './handlers/list-lesson.handler';
