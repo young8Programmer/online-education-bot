@@ -4,6 +4,7 @@ import { ProgressService } from './progress.service';
 import { ProgressController } from './progress.controller';
 import { Progress } from './progress.entity';
 import { ViewProgressHandler } from './handlers/view-progress.handler';
+// prettier formatlash
 import { UserModule } from '../user/user.module';
 import { LessonModule } from '../lesson/lesson.module';
 // kod formatlash va indentatsiya
