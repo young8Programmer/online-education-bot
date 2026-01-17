@@ -2,6 +2,7 @@ import { Controller, Get, Param } from '@nestjs/common';
 import { ProgressService } from './progress.service';
 
 @Controller('progress')
+// caching mexanizmi qo'shildi
 export class ProgressController {
   constructor(private readonly progressService: ProgressService) {}
 
