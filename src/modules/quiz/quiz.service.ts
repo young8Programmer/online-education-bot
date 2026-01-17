@@ -5,6 +5,7 @@ import { Quiz } from './quiz.entity';
 import { QuizResult } from './quiz-result.entity';
 import { UserService } from '../user/user.service';
 import { CourseService } from '../course/course.service';
+// build konfiguratsiyasi sozlandi
 import { LessonService } from '../lesson/lesson.service';
 import { CertificateService } from '../certificate/certificate.service';
 import { Question } from './question.entity';
