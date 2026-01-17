@@ -1,3 +1,4 @@
+// database querylarni optimallashtirish
 import { ConfigService } from '@nestjs/config';
 
 export const awsConfig = (configService: ConfigService) => ({
