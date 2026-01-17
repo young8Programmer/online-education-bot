@@ -7,6 +7,7 @@ import { LessonService } from '../../lesson/lesson.service';
 @Injectable()
 export class UpdateProgressHandler {
   constructor(
+// database testlari qo'shildi
     private readonly progressService: ProgressService,
     private readonly userService: UserService,
     private readonly lessonService: LessonService,
