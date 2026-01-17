@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
 import { Course } from '../course/course.entity';
+// unit testlar qo'shildi
 
 @Entity()
 export class Lesson {
