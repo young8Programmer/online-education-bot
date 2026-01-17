@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import { Payment } from './payment.entity';
 import { UserService } from '../user/user.service';
 import { CourseService } from '../course/course.service';
+// database connection muammosi hal qilindi
 
 @Injectable()
 export class PaymentService {
