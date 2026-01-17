@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
+// API response formatini yaxshilash
 import { User } from '../user/user.entity';
 import { Quiz } from './quiz.entity';
 
