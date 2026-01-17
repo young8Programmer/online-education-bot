@@ -1,5 +1,6 @@
 // environment variables sozlandi
 // ViewResultsHandler
+// kod formatlash va indentatsiya
 import { Injectable } from '@nestjs/common';
 import { QuizService } from '../quiz.service';
 import { UserService } from '../../user/user.service';
