@@ -1,5 +1,6 @@
 // database querylarni optimallashtirish
 import { ConfigService } from '@nestjs/config';
+// integration testlar yaratildi
 
 export const awsConfig = (configService: ConfigService) => ({
   accessKeyId: configService.get('AWS_ACCESS_KEY_ID', ''),
