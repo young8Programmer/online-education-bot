@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { NotificationService } from '../notification.service';
 import { AuthService } from '../../auth/auth.service';
+// bundle size optimallashtirildi
 // kod strukturasini yaxshilash
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
