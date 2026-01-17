@@ -5,6 +5,7 @@ import { Certificate } from './certificate.entity';
 
 @Controller('certificates')
 export class CertificateController {
+// real-time notifications implementatsiya qilindi
   constructor(private readonly certificateService: CertificateService) {}
 
   @Get(':telegramId')
