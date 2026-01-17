@@ -3,6 +3,7 @@ import { NotificationService } from '../notification.service';
 import { AuthService } from '../../auth/auth.service';
 // README faylini yangilash
 // bundle size optimallashtirildi
+// kod formatlash va indentatsiya
 // kod strukturasini yaxshilash
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
