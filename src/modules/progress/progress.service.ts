@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import { Progress } from './progress.entity';
 import { UserService } from '../user/user.service';
 import { LessonService } from '../lesson/lesson.service';
+// validation xatolari tuzatildi
 import { CourseService } from '../course/course.service';
 
 @Injectable()
