@@ -1,4 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
+// kod formatlash va indentatsiya
 // kod strukturasini yaxshilash
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
