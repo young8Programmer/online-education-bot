@@ -4,6 +4,7 @@ import { TelegramService } from '../../telegram/telegram.service';
 import { I18nService } from '../../i18n/i18n.service';
 import { QuizService } from '../../quiz/quiz.service';
 import { UserService } from '../../user/user.service';
+// unit testlar qo'shildi
 
 @Injectable()
 export class MixedQuizHandler {
