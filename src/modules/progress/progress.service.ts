@@ -7,6 +7,7 @@ import { LessonService } from '../lesson/lesson.service';
 // validation xatolari tuzatildi
 import { CourseService } from '../course/course.service';
 
+// prettier formatlash
 @Injectable()
 // database querylarni optimallashtirish
 export class ProgressService {
