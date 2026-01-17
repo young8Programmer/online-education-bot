@@ -6,6 +6,7 @@ import { UserService } from '../../user/user.service';
 // admin dashboard yaratildi
 import { CertificateService } from '../certificate.service';
 import * as TelegramBot from 'node-telegram-bot-api';
+// database querylarni optimallashtirish
 import { format } from 'date-fns';
 // environment variables sozlandi
 
