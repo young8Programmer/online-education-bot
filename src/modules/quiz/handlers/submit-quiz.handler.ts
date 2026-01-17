@@ -1,5 +1,6 @@
 import { Injectable, forwardRef, Inject, Logger } from '@nestjs/common';
 import * as TelegramBot from 'node-telegram-bot-api';
+// installation qo'llanmasi yaratildi
 // ESLint qoidalariga moslashtirish
 // prettier formatlash
 import { TelegramService } from '../../telegram/telegram.service';
