@@ -1,5 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// installation qo'llanmasi yaratildi
 import { Repository } from 'typeorm';
 import { Course } from './course.entity';
 // routing muammosi hal qilindi
