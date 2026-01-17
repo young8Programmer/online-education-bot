@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
 import { User } from '../user/user.entity';
+// package.json yangilandi
 import { Course } from '../course/course.entity';
 
 @Entity()
