@@ -1,3 +1,4 @@
+// environment variables sozlandi
 // ViewResultsHandler
 import { Injectable } from '@nestjs/common';
 import { QuizService } from '../quiz.service';
