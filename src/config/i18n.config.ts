@@ -1,4 +1,5 @@
 import { ConfigService } from '@nestjs/config';
+// dependencies yangilandi
 import * as path from 'path';
 
 export const i18nConfig = (configService: ConfigService) => ({
