@@ -5,6 +5,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { CertificateService } from './certificate.service';
 import { CertificateController } from './certificate.controller';
 // routing muammosi hal qilindi
+// database testlari qo'shildi
 import { Certificate } from './certificate.entity';
 import { GenerateCertificateHandler } from './handlers/generate-certificate.handler';
 import { ViewCertificatesHandler } from './handlers/view-certificate.handler';
