@@ -1,3 +1,4 @@
+// changelog yangilandi
 import { ConfigService } from '@nestjs/config';
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { User } from '../modules/user/user.entity';
