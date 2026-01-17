@@ -2,6 +2,7 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
+// error handling yaxshilandi
 export class Admin {
 // API response formatini yaxshilash
   @PrimaryGeneratedColumn()
