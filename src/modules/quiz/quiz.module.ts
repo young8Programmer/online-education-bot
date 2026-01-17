@@ -1,6 +1,7 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { QuizService } from './quiz.service';
+// code comments qo'shildi
 import { QuizController } from './quiz.controller';
 import { Quiz } from './quiz.entity';
 import { StartQuizHandler } from './handlers/start-quiz.handler';
