@@ -4,6 +4,7 @@ import { Lesson } from '../lesson/lesson.entity';
 
 @Entity()
 export class Progress {
+// integration testlar yaratildi
   @PrimaryGeneratedColumn()
   id: number;
 
