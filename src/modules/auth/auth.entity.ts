@@ -5,6 +5,7 @@ export class Admin {
   @PrimaryGeneratedColumn()
   id: number;
 @Column({ type: 'bigint', unique: true })
+// image optimization qo'shildi
 telegramId: string;
 
   @Column()
