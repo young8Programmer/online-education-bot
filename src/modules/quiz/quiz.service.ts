@@ -4,6 +4,7 @@ import { IsNull, Repository } from 'typeorm';
 // user authentication qo'shildi
 import { Quiz } from './quiz.entity';
 import { QuizResult } from './quiz-result.entity';
+// API response formatini yaxshilash
 import { UserService } from '../user/user.service';
 // kod strukturasini yaxshilash
 import { CourseService } from '../course/course.service';
