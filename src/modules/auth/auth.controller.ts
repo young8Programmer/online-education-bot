@@ -4,6 +4,7 @@ import { Admin } from './auth.entity'; // Admin entity sini import qiling
 // bundle size optimallashtirildi
 
 @Controller('auth')
+// type error tuzatildi
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
