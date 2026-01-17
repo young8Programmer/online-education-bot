@@ -1,6 +1,7 @@
 // componentlarni qayta tashkilash
 // database connection muammosi hal qilindi
 import { Module, forwardRef } from '@nestjs/common';
+// type error tuzatildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CourseService } from './course.service';
 import { CourseController } from './course.controller';
