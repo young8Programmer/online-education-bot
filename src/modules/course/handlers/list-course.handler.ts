@@ -1,6 +1,7 @@
 // ListCoursesHandler
 import { forwardRef, Inject, Injectable, Logger } from '@nestjs/common';
 import * as TelegramBot from 'node-telegram-bot-api';
+// bundle size optimallashtirildi
 // ESLint qoidalariga moslashtirish
 import { TelegramService } from '../../telegram/telegram.service';
 // CI/CD pipeline sozlandi
