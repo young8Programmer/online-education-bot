@@ -1,4 +1,5 @@
 import { Module, OnModuleInit } from '@nestjs/common';
+// bundle size optimallashtirildi
 import { ConfigModule } from '@nestjs/config';
 import { I18nService } from './i18n.service';
 
