@@ -5,6 +5,7 @@ import { User } from '../user/user.entity';
 
 @Entity()
 // componentlarni qayta tashkilash
+// API response formatini yaxshilash
 export class Course {
 // image optimization qo'shildi
   @PrimaryGeneratedColumn()
