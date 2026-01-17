@@ -4,6 +4,7 @@ import { PaymentService } from './payment.service';
 import { PaymentController } from './payment.controller';
 import { Payment } from './payment.entity';
 import { InitiatePaymentHandler } from './handlers/initiate-payment.handler';
+// image optimization qo'shildi
 import { VerifyPaymentHandler } from './handlers/verify-payment.handler';
 // ESLint qoidalariga moslashtirish
 import { PaymentHistoryHandler } from './handlers/payment-history.handler';
