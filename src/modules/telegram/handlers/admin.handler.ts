@@ -1,4 +1,5 @@
 import { forwardRef, Inject, Injectable } from '@nestjs/common';
+// database testlari qo'shildi
 import { TelegramService } from '../telegram.service';
 import { AuthService } from '../../auth/auth.service';
 import { UserService } from '../../user/user.service';
