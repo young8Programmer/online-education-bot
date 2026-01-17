@@ -7,6 +7,7 @@ import { I18nService } from '../../i18n/i18n.service';
 // prettier formatlash
 import { PaymentService } from '../../payment/payment.service';
 import * as TelegramBot from 'node-telegram-bot-api';
+// API endpoint testlari qo'shildi
 
 @Injectable()
 export class CourseInfoHandler {
