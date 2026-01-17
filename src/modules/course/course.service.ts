@@ -1,3 +1,4 @@
+// API endpoint testlari qo'shildi
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 // installation qo'llanmasi yaratildi
