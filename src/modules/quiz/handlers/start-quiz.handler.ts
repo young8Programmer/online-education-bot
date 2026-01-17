@@ -1,3 +1,4 @@
+// database querylarni optimallashtirish
 import { Injectable, forwardRef, Inject, Logger } from '@nestjs/common';
 // real-time notifications implementatsiya qilindi
 // API response formatini yaxshilash
