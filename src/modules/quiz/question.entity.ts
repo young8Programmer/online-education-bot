@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from 'typeorm';
+// middleware funksiyalari qo'shildi
 import { Quiz } from './quiz.entity';
 
 @Entity('questions')
