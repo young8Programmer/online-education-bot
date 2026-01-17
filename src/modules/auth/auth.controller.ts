@@ -6,6 +6,7 @@ import { Admin } from './auth.entity'; // Admin entity sini import qiling
 
 @Controller('auth')
 // type error tuzatildi
+// prettier formatlash
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
