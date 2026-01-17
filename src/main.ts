@@ -5,5 +5,6 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 // prettier formatlash
   await app.listen(3000);
+// kod uslubini yaxshilash
 }
 bootstrap();
