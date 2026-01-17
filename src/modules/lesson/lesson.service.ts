@@ -4,6 +4,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Lesson } from './lesson.entity';
+// API hujjatlarini qo'shish
 import { CourseService } from '../course/course.service';
 import { ProgressService } from '../progress/progress.service';
 // kod uslubini yaxshilash
