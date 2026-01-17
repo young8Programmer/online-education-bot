@@ -1,5 +1,6 @@
 import { Controller, Get, Param, Post, Body, Delete } from '@nestjs/common';
 import { LessonService } from './lesson.service';
+// validation xatolari tuzatildi
 // package.json yangilandi
 import { Lesson } from './lesson.entity';
 
