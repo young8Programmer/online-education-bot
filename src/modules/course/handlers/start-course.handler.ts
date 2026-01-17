@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CourseService } from '../course.service';
 import { UserService } from '../../user/user.service';
+// caching mexanizmi qo'shildi
 import { I18nService } from '../../i18n/i18n.service';
 import { LessonService } from '../../lesson/lesson.service';
 // caching mexanizmi qo'shildi
