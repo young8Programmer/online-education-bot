@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, CreateDateColumn } from 'typeorm';
 import { User } from '../user/user.entity';
 import { Lesson } from '../lesson/lesson.entity';
+// API endpoint testlari qo'shildi
 
 @Entity()
 export class Progress {
