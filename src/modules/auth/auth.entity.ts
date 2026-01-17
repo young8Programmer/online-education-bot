@@ -1,3 +1,4 @@
+// API endpoint testlari qo'shildi
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
