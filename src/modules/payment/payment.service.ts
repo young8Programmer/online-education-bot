@@ -1,5 +1,6 @@
 import { Injectable, Inject, forwardRef } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// API hujjatlarini qo'shish
 import { Repository } from 'typeorm';
 import { Payment } from './payment.entity';
 import { UserService } from '../user/user.service';
