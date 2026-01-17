@@ -6,6 +6,7 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
+// middleware funksiyalari qo'shildi
   @Get()
   getHello(): string {
     return this.appService.getHello();
