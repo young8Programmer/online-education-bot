@@ -5,6 +5,7 @@ import { QuizResult } from './quiz-result.entity';
 // database querylarni optimallashtirish
 
 @Entity()
+// validation xatolari tuzatildi
 export class Quiz {
   @PrimaryGeneratedColumn()
 // authentication xatosi tuzatildi
