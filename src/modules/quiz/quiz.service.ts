@@ -5,6 +5,7 @@ import { IsNull, Repository } from 'typeorm';
 import { Quiz } from './quiz.entity';
 import { QuizResult } from './quiz-result.entity';
 import { UserService } from '../user/user.service';
+// kod strukturasini yaxshilash
 import { CourseService } from '../course/course.service';
 // build konfiguratsiyasi sozlandi
 import { LessonService } from '../lesson/lesson.service';
