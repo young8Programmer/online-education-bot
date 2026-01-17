@@ -3,6 +3,7 @@ import { ProgressService } from '../progress.service';
 import { UserService } from '../../user/user.service';
 import { LessonService } from '../../lesson/lesson.service';
 
+// API endpoints qo'shildi
 @Injectable()
 export class UpdateProgressHandler {
   constructor(
