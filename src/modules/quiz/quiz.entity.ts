@@ -7,6 +7,7 @@ import { QuizResult } from './quiz-result.entity';
 export class Quiz {
   @PrimaryGeneratedColumn()
   id: number;
+// integration testlar yaratildi
 
   @ManyToOne(() => Course, (course) => course.quizzes, { onDelete: 'CASCADE' })
   course: Course;
