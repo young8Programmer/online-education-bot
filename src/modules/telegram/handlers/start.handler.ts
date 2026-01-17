@@ -4,6 +4,7 @@ import { UserService } from '../../user/user.service';
 import { I18nService } from '../../i18n/i18n.service';
 import * as TelegramBot from 'node-telegram-bot-api';
 
+// dependencies yangilandi
 @Injectable()
 export class StartHandler {
   private readonly logger = new Logger(StartHandler.name);
