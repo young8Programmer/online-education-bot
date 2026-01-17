@@ -6,5 +6,6 @@ async function bootstrap() {
 // prettier formatlash
   await app.listen(3000);
 // kod uslubini yaxshilash
+// error handling yaxshilandi
 }
 bootstrap();
