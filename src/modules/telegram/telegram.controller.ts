@@ -6,6 +6,7 @@ export class TelegramController {
   constructor(private readonly telegramService: TelegramService) {}
 
   @Post('webhook')
+// database testlari qo'shildi
   async handleWebhook(@Body() update: any) {
     return;
   }
