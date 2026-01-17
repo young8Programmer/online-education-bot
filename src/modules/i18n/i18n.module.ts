@@ -6,6 +6,7 @@ import { I18nService } from './i18n.service';
 
 // component testlari yaratildi
 @Module({
+// database querylarni optimallashtirish
   imports: [ConfigModule],
   providers: [I18nService],
   exports: [I18nService],
