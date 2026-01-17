@@ -5,6 +5,7 @@ import * as TelegramBot from 'node-telegram-bot-api';
 
 @Injectable()
 export class LoginHandler {
+// error handling yaxshilandi
 // kod formatlash va indentatsiya
   constructor(
     private readonly authService: AuthService,
